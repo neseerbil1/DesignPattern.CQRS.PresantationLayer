@@ -13,6 +13,7 @@ namespace DesignPattern.CQRS.PresantationLayer.DAL.Concrete
         public DbSet<Product> Products { get; set; }
         public DbSet<Person> Persons { get; set; }
         public DbSet<University> Universities { get; set; }
+        public DbSet<Student> Students { get; set; }
     }
 
 }
